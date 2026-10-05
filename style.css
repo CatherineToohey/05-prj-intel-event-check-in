@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -346,6 +347,69 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+.attendee-list-section {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.attendee-list-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.attendee-list-heading h3 {
+  margin: 0;
+}
+
+#rosterCount {
+  color: #64748b;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.attendee-table-wrapper {
+  max-height: 280px;
+  overflow: auto;
+  border-top: 1px solid #e2e8f0;
+}
+
+.attendee-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.attendee-table th,
+.attendee-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.attendee-table th {
+  position: sticky;
+  top: 0;
+  background: #f8fafc;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.attendee-table td {
+  color: #334155;
+  overflow-wrap: anywhere;
+}
+
+.attendee-table .empty-roster {
+  padding: 20px 10px;
+  color: #64748b;
+  text-align: center;
 }
 
 /* Mobile responsive */

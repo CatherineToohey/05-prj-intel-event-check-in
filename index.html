@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -78,6 +78,29 @@
           <div class="team-card power">
             <span class="team-name">⚡ Team Renewables</span>
             <span class="team-count" id="powerCount">0</span>
+          </div>
+        </div>
+        <div class="attendee-list-section">
+          <div class="attendee-list-heading">
+            <h3>Checked-In Attendees</h3>
+            <span id="rosterCount">0 checked in</span>
+          </div>
+          <div class="attendee-table-wrapper">
+            <table class="attendee-table">
+              <thead>
+                <tr>
+                  <th scope="col">Attendee</th>
+                  <th scope="col">Team</th>
+                </tr>
+              </thead>
+              <tbody id="attendeeList">
+                <tr>
+                  <td class="empty-roster" colspan="2">
+                    No attendees checked in yet.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
